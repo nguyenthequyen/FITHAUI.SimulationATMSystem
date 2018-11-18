@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace FITHAUI.SimulationATMSystem.UI
 {
-    public partial class frmBalanceInquiry1 : Form
+    public partial class frmBalanceInquiry2 : Form
     {
-        public frmBalanceInquiry1()
+        public frmBalanceInquiry2()
         {
             InitializeComponent();
-        }
-
-        private void btnBalance_Click(object sender, EventArgs e)
-        {
-            var suplus = new frmBalanceInquiry2();
-            this.Hide();
-            suplus.Show();
         }
     }
 }

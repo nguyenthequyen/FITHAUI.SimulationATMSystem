@@ -16,7 +16,7 @@ namespace FITHAUI.SimulationATMSystem.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmBalanceInquiry1());
+            Application.Run(new frmMainForm());
         }
     }
 }

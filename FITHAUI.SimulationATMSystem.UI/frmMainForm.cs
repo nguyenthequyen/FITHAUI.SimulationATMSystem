@@ -18,5 +18,12 @@ namespace FITHAUI.SimulationATMSystem.UI
             InitializeComponent();
 
         }
+
+        private void btnSuplusBalance_Click(object sender, EventArgs e)
+        {
+            var surplusPrintStatements = new frmBalanceInquiry1();
+            surplusPrintStatements.Show();
+            this.Hide();
+        }
     }
 }

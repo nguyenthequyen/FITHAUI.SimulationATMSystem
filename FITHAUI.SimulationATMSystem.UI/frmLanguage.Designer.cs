@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLanguage));
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -62,6 +63,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -69,7 +71,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnPrintStatements = new DevExpress.XtraEditors.SimpleButton();
             this.btnBalanceInquiry = new DevExpress.XtraEditors.SimpleButton();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -318,9 +319,9 @@
             this.grAcceptRight.Controls.Add(this.button6);
             this.grAcceptRight.Controls.Add(this.button7);
             this.grAcceptRight.Controls.Add(this.button8);
-            this.grAcceptRight.Location = new System.Drawing.Point(693, 132);
+            this.grAcceptRight.Location = new System.Drawing.Point(719, 132);
             this.grAcceptRight.Name = "grAcceptRight";
-            this.grAcceptRight.Size = new System.Drawing.Size(90, 292);
+            this.grAcceptRight.Size = new System.Drawing.Size(66, 292);
             this.grAcceptRight.TabIndex = 4;
             this.grAcceptRight.TabStop = false;
             // 
@@ -328,7 +329,7 @@
             // 
             this.button5.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Location = new System.Drawing.Point(21, 225);
+            this.button5.Location = new System.Drawing.Point(9, 225);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(50, 46);
             this.button5.TabIndex = 3;
@@ -338,7 +339,7 @@
             // 
             this.button6.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Location = new System.Drawing.Point(21, 157);
+            this.button6.Location = new System.Drawing.Point(9, 157);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(50, 46);
             this.button6.TabIndex = 2;
@@ -348,7 +349,7 @@
             // 
             this.button7.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.Location = new System.Drawing.Point(21, 91);
+            this.button7.Location = new System.Drawing.Point(9, 91);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(50, 46);
             this.button7.TabIndex = 1;
@@ -358,7 +359,7 @@
             // 
             this.button8.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button8.Location = new System.Drawing.Point(21, 27);
+            this.button8.Location = new System.Drawing.Point(9, 27);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(50, 46);
             this.button8.TabIndex = 0;
@@ -372,7 +373,7 @@
             this.grAcceptLeft.Controls.Add(this.button1);
             this.grAcceptLeft.Location = new System.Drawing.Point(10, 132);
             this.grAcceptLeft.Name = "grAcceptLeft";
-            this.grAcceptLeft.Size = new System.Drawing.Size(90, 292);
+            this.grAcceptLeft.Size = new System.Drawing.Size(66, 292);
             this.grAcceptLeft.TabIndex = 1;
             this.grAcceptLeft.TabStop = false;
             // 
@@ -380,7 +381,7 @@
             // 
             this.button4.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Location = new System.Drawing.Point(19, 225);
+            this.button4.Location = new System.Drawing.Point(8, 225);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 46);
             this.button4.TabIndex = 3;
@@ -390,7 +391,7 @@
             // 
             this.button3.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Location = new System.Drawing.Point(19, 157);
+            this.button3.Location = new System.Drawing.Point(8, 157);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 46);
             this.button3.TabIndex = 2;
@@ -400,7 +401,7 @@
             // 
             this.button2.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Location = new System.Drawing.Point(19, 91);
+            this.button2.Location = new System.Drawing.Point(8, 91);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 46);
             this.button2.TabIndex = 1;
@@ -410,7 +411,7 @@
             // 
             this.button1.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(19, 27);
+            this.button1.Location = new System.Drawing.Point(8, 27);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 46);
             this.button1.TabIndex = 0;
@@ -428,10 +429,19 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.btnPrintStatements);
             this.panel2.Controls.Add(this.btnBalanceInquiry);
-            this.panel2.Location = new System.Drawing.Point(106, 3);
+            this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(581, 421);
+            this.panel2.Size = new System.Drawing.Size(631, 421);
             this.panel2.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.Logo;
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(631, 63);
+            this.panel4.TabIndex = 3;
             // 
             // label5
             // 
@@ -492,7 +502,12 @@
             // btnPrintStatements
             // 
             this.btnPrintStatements.AllowDrop = true;
-            this.btnPrintStatements.Location = new System.Drawing.Point(432, 354);
+            this.btnPrintStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrintStatements.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnPrintStatements.Appearance.Options.UseFont = true;
+            this.btnPrintStatements.Appearance.Options.UseForeColor = true;
+            this.btnPrintStatements.Enabled = false;
+            this.btnPrintStatements.Location = new System.Drawing.Point(482, 354);
             this.btnPrintStatements.Name = "btnPrintStatements";
             this.btnPrintStatements.Size = new System.Drawing.Size(149, 46);
             this.btnPrintStatements.TabIndex = 0;
@@ -500,20 +515,16 @@
             // 
             // btnBalanceInquiry
             // 
-            this.btnBalanceInquiry.Location = new System.Drawing.Point(432, 286);
+            this.btnBalanceInquiry.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnBalanceInquiry.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnBalanceInquiry.Appearance.Options.UseFont = true;
+            this.btnBalanceInquiry.Appearance.Options.UseForeColor = true;
+            this.btnBalanceInquiry.Enabled = false;
+            this.btnBalanceInquiry.Location = new System.Drawing.Point(482, 286);
             this.btnBalanceInquiry.Name = "btnBalanceInquiry";
             this.btnBalanceInquiry.Size = new System.Drawing.Size(149, 46);
             this.btnBalanceInquiry.TabIndex = 0;
             this.btnBalanceInquiry.Text = "English";
-            // 
-            // panel4
-            // 
-            this.panel4.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.Logo;
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(581, 63);
-            this.panel4.TabIndex = 3;
             // 
             // frmLanguage
             // 
@@ -526,8 +537,12 @@
             this.Controls.Add(this.btnCardNo);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmLanguage";
-            this.Text = "frmLanguage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Techcombank";
             this.panel3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -577,13 +592,13 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
         private DevExpress.XtraEditors.SimpleButton btnPrintStatements;
         private DevExpress.XtraEditors.SimpleButton btnBalanceInquiry;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

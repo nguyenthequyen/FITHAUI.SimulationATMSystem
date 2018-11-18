@@ -16,5 +16,13 @@ namespace FITHAUI.SimulationATMSystem.UI
         {
             InitializeComponent();
         }
+
+        private void btnDisplayBalance_Click(object sender, EventArgs e)
+        {
+            var display = new frmBalanceInquiry3();
+            this.Hide();
+            display.Show();
+
+        }
     }
 }

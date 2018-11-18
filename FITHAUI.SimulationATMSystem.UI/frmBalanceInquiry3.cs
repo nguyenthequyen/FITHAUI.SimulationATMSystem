@@ -16,5 +16,12 @@ namespace FITHAUI.SimulationATMSystem.UI
         {
             InitializeComponent();
         }
+
+        private void btnNo_Click(object sender, EventArgs e)
+        {
+            var frmAwait = new frmAwait();
+            this.Hide();
+            frmAwait.Show();
+        }
     }
 }
