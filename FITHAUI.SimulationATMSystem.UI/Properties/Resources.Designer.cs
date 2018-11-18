@@ -165,7 +165,7 @@ namespace FITHAUI.SimulationATMSystem.UI.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icon_next {
             get {
-                object obj = ResourceManager.GetObject("icon-next", resourceCulture);
+                object obj = ResourceManager.GetObject("icon_next", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -175,7 +175,7 @@ namespace FITHAUI.SimulationATMSystem.UI.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icon_prev {
             get {
-                object obj = ResourceManager.GetObject("icon-prev", resourceCulture);
+                object obj = ResourceManager.GetObject("icon_prev", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,10 +183,20 @@ namespace FITHAUI.SimulationATMSystem.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logo_tech {
+        internal static System.Drawing.Bitmap Logo {
             get {
-                object obj = ResourceManager.GetObject("logo-tech", resourceCulture);
+                object obj = ResourceManager.GetObject("Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon logo_tech {
+            get {
+                object obj = ResourceManager.GetObject("logo_tech", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         

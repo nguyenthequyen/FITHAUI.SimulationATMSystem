@@ -4,19 +4,17 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FITHAUI.SimulationATMSystem.UI
 {
-    public partial class frmMainForm : Form
+    public partial class frmBalanceInquiry3 : Form
     {
-        public frmMainForm()
+        public frmBalanceInquiry3()
         {
             InitializeComponent();
-
         }
     }
 }

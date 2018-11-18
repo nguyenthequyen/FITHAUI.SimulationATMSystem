@@ -53,6 +53,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmBalanceInquiry1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBalanceInquiry1.Designer.cs">
+      <DependentUpon>frmBalanceInquiry1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBalanceInquiry2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBalanceInquiry2.Designer.cs">
+      <DependentUpon>frmBalanceInquiry2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBalanceInquiry3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBalanceInquiry3.Designer.cs">
+      <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLanguage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanguage.Designer.cs">
+      <DependentUpon>frmLanguage.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +85,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBalanceInquiry1.resx">
+      <DependentUpon>frmBalanceInquiry1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceInquiry2.resx">
+      <DependentUpon>frmBalanceInquiry2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceInquiry3.resx">
+      <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLanguage.resx">
+      <DependentUpon>frmLanguage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMainForm.resx">
       <DependentUpon>frmMainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +140,7 @@
     <None Include="Content\Images\icon-next.png" />
     <Content Include="Content\Images\logo-tech.ico" />
     <Content Include="Content\Images\logo-tech.png" />
+    <None Include="Content\Images\Logo.png" />
     <Content Include="Content\Images\techcombank_bg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
