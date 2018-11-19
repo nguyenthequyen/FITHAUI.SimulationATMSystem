@@ -78,6 +78,18 @@
     <Compile Include="frmBalanceInquiry3.Designer.cs">
       <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInputPIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputPIN.Designer.cs">
+      <DependentUpon>frmInputPIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputPINFail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputPINFail.Designer.cs">
+      <DependentUpon>frmInputPINFail.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLanguage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBalanceInquiry3.resx">
       <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputPIN.resx">
+      <DependentUpon>frmInputPIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputPINFail.resx">
+      <DependentUpon>frmInputPINFail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLanguage.resx">
       <DependentUpon>frmLanguage.cs</DependentUpon>
