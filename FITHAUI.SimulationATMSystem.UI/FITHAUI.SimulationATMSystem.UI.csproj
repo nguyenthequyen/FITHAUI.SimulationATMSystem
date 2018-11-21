@@ -120,6 +120,12 @@
     <Compile Include="frmMainForm.Designer.cs">
       <DependentUpon>frmMainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMainFormChooseTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainFormChooseTransfer.Designer.cs">
+      <DependentUpon>frmMainFormChooseTransfer.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmValidateCard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainForm.resx">
       <DependentUpon>frmMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainFormChooseTransfer.resx">
+      <DependentUpon>frmMainFormChooseTransfer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
