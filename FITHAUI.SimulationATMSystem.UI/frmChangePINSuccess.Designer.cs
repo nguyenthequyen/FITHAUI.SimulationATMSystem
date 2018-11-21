@@ -1,6 +1,6 @@
 ﻿namespace FITHAUI.SimulationATMSystem.UI
 {
-    partial class frmInputPIN
+    partial class frmChangePINSuccess
     {
         /// <summary>
         /// Required designer variable.
@@ -62,8 +62,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtPIN = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
@@ -453,8 +451,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel2.Controls.Add(this.txtPIN);
-            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Location = new System.Drawing.Point(123, 5);
@@ -463,40 +459,17 @@
             this.panel2.Size = new System.Drawing.Size(946, 648);
             this.panel2.TabIndex = 0;
             // 
-            // txtPIN
-            // 
-            this.txtPIN.BackColor = System.Drawing.Color.Green;
-            this.txtPIN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPIN.Location = new System.Drawing.Point(315, 271);
-            this.txtPIN.Multiline = true;
-            this.txtPIN.Name = "txtPIN";
-            this.txtPIN.Size = new System.Drawing.Size(284, 45);
-            this.txtPIN.TabIndex = 5;
-            this.txtPIN.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(260, 175);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(409, 36);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "(Ấn Correction để nhập lại.)";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(294, 129);
+            this.label9.Location = new System.Drawing.Point(289, 323);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(328, 36);
+            this.label9.Size = new System.Drawing.Size(398, 36);
             this.label9.TabIndex = 4;
-            this.label9.Text = "Vui lòng nhập số PIN.";
+            this.label9.Text = "Bạn đã đổi PIN thành công";
             // 
             // panel4
             // 
@@ -508,7 +481,7 @@
             this.panel4.Size = new System.Drawing.Size(946, 97);
             this.panel4.TabIndex = 3;
             // 
-            // frmInputPIN
+            // frmChangePINSuccess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -522,7 +495,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmInputPIN";
+            this.Name = "frmChangePINSuccess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Techcombank";
             this.panel3.ResumeLayout(false);
@@ -576,7 +549,5 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtPIN;
     }
 }

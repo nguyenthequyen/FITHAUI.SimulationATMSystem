@@ -78,6 +78,24 @@
     <Compile Include="frmBalanceInquiry3.Designer.cs">
       <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmChangePIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePIN.Designer.cs">
+      <DependentUpon>frmChangePIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePINFail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePINFail.Designer.cs">
+      <DependentUpon>frmChangePINFail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePINSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePINSuccess.Designer.cs">
+      <DependentUpon>frmChangePINSuccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInputPIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +157,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBalanceInquiry3.resx">
       <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePIN.resx">
+      <DependentUpon>frmChangePIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePINFail.resx">
+      <DependentUpon>frmChangePINFail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePINSuccess.resx">
+      <DependentUpon>frmChangePINSuccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInputPIN.resx">
       <DependentUpon>frmInputPIN.cs</DependentUpon>

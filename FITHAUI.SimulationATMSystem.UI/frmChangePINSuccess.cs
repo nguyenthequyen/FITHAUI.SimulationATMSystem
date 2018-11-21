@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace FITHAUI.SimulationATMSystem.UI
 {
-    public partial class frmInputPINFail : Form
+    public partial class frmChangePINSuccess : Form
     {
-        public frmInputPINFail()
+        public frmChangePINSuccess()
         {
             InitializeComponent();
         }
-
-        
     }
 }
