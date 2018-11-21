@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBalanceInquiry1));
-            this.btnPrintStatements = new DevExpress.XtraEditors.SimpleButton();
-            this.btnSurplus = new DevExpress.XtraEditors.SimpleButton();
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -75,33 +73,6 @@
             this.grAcceptRight.SuspendLayout();
             this.grAcceptLeft.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // btnPrintStatements
-            // 
-            this.btnPrintStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrintStatements.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnPrintStatements.Appearance.Options.UseFont = true;
-            this.btnPrintStatements.Appearance.Options.UseForeColor = true;
-            this.btnPrintStatements.Enabled = false;
-            this.btnPrintStatements.Location = new System.Drawing.Point(0, 220);
-            this.btnPrintStatements.Name = "btnPrintStatements";
-            this.btnPrintStatements.Size = new System.Drawing.Size(149, 46);
-            this.btnPrintStatements.TabIndex = 0;
-            this.btnPrintStatements.Text = "In sao kê";
-            // 
-            // btnSurplus
-            // 
-            this.btnSurplus.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnSurplus.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnSurplus.Appearance.Options.UseFont = true;
-            this.btnSurplus.Appearance.Options.UseForeColor = true;
-            this.btnSurplus.Enabled = false;
-            this.btnSurplus.Location = new System.Drawing.Point(0, 156);
-            this.btnSurplus.Name = "btnSurplus";
-            this.btnSurplus.Size = new System.Drawing.Size(149, 46);
-            this.btnSurplus.TabIndex = 0;
-            this.btnSurplus.Text = "Xem số dư";
             // 
             // button25
             // 
@@ -448,8 +419,6 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnSurplus);
-            this.panel2.Controls.Add(this.btnPrintStatements);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -517,8 +486,6 @@
         }
 
         #endregion
-        private DevExpress.XtraEditors.SimpleButton btnPrintStatements;
-        private DevExpress.XtraEditors.SimpleButton btnSurplus;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox btnCardNo;

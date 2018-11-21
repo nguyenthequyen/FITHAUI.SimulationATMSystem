@@ -63,13 +63,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnBalanceInquiry = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -422,14 +415,7 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.simpleButton6);
-            this.panel2.Controls.Add(this.simpleButton2);
-            this.panel2.Controls.Add(this.simpleButton5);
-            this.panel2.Controls.Add(this.simpleButton1);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.simpleButton4);
-            this.panel2.Controls.Add(this.simpleButton3);
-            this.panel2.Controls.Add(this.btnBalanceInquiry);
             this.panel2.Location = new System.Drawing.Point(106, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(581, 428);
@@ -443,63 +429,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(581, 63);
             this.panel4.TabIndex = 3;
-            // 
-            // btnBalanceInquiry
-            // 
-            this.btnBalanceInquiry.Location = new System.Drawing.Point(432, 300);
-            this.btnBalanceInquiry.Name = "btnBalanceInquiry";
-            this.btnBalanceInquiry.Size = new System.Drawing.Size(149, 46);
-            this.btnBalanceInquiry.TabIndex = 0;
-            this.btnBalanceInquiry.Text = "Thanh toán hóa đơn";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(432, 241);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton1.TabIndex = 4;
-            this.simpleButton1.Text = "Chuyển khoản";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(432, 178);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton2.TabIndex = 4;
-            this.simpleButton2.Text = "Đổi PIN";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(0, 300);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton3.TabIndex = 0;
-            this.simpleButton3.Text = "Gửi tiền có kỳ hạn";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.AllowDrop = true;
-            this.simpleButton4.Location = new System.Drawing.Point(0, 374);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton4.TabIndex = 0;
-            this.simpleButton4.Text = "Đăng ký dịch vụ";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(0, 241);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton5.TabIndex = 4;
-            this.simpleButton5.Text = "Xêm số dư/In sao kê";
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(3, 178);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton6.TabIndex = 4;
-            this.simpleButton6.Text = "Rút tiền";
             // 
             // label1
             // 
@@ -575,14 +504,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton btnBalanceInquiry;
         private System.Windows.Forms.Label label1;
     }
 }
