@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FITHAUI.SimulationATMSystem.UI
 {
-    public partial class Form1 : Form
+    public partial class ViewsHistory : Form
     {
-        public Form1()
+        public ViewsHistory()
         {
             InitializeComponent();
         }

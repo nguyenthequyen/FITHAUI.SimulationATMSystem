@@ -117,53 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="techcombank_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\techcombank_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnTwo.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnFive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnFive.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnThree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnThree.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Techcombank_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\Techcombank_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnOne.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnSix" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnSix.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnNine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnNine.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnEight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnEight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\content\images\icon-next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\content\images\icon-prev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_tech" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\content\images\logo-tech.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnZero" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnZero.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnSeven" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnSeven.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnFour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\btnFour.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Content\Images\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>             Giấy được sản xuất từ gỗ. Hàng năm, chúng ta mất đi 
+              hàng ngàn hecta rừng để phục vụ cho sản xuất giấy. 
+Hãy bảo vệ môi trường sống và bảo vệ rừng của chúng ta bằng cách 
+                      không in biên lai nếu thực sự không cần thiết. 
+                                        Xin cám ơn quý khách!</value>
   </data>
 </root>
