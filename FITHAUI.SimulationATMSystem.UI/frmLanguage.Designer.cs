@@ -69,6 +69,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -419,6 +421,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel2.Controls.Add(this.button10);
+            this.panel2.Controls.Add(this.button9);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
@@ -495,6 +499,24 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome - Chào mừng";
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(501, 286);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(130, 46);
+            this.button9.TabIndex = 4;
+            this.button9.Text = "Tiếng việt";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(501, 354);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(130, 46);
+            this.button10.TabIndex = 4;
+            this.button10.Text = "English";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
             // frmLanguage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -567,5 +589,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button9;
     }
 }
