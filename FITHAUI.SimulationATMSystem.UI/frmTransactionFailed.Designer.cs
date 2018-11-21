@@ -1,6 +1,6 @@
 ﻿namespace FITHAUI.SimulationATMSystem.UI
 {
-    partial class frmMainForm
+    partial class frmTransactionFailed
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainForm));
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -55,22 +54,20 @@
             this.grAcceptRight = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.btnCashTransfer = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.grAcceptLeft = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.btnSuplusBalance = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnBalance = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.btnCashTransferStatements = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.btnSurplusPrintStatements = new DevExpress.XtraEditors.SimpleButton();
-            this.btnBalanceInquiry = new DevExpress.XtraEditors.SimpleButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnYes = new DevExpress.XtraEditors.SimpleButton();
+            this.btnNo = new DevExpress.XtraEditors.SimpleButton();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -88,7 +85,7 @@
             this.button25.Location = new System.Drawing.Point(573, 470);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(233, 35);
-            this.button25.TabIndex = 39;
+            this.button25.TabIndex = 34;
             this.button25.UseVisualStyleBackColor = true;
             // 
             // panel5
@@ -97,7 +94,7 @@
             this.panel5.Location = new System.Drawing.Point(427, 442);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(125, 123);
-            this.panel5.TabIndex = 37;
+            this.panel5.TabIndex = 32;
             // 
             // btnCardNo
             // 
@@ -106,7 +103,7 @@
             this.btnCardNo.Multiline = true;
             this.btnCardNo.Name = "btnCardNo";
             this.btnCardNo.Size = new System.Drawing.Size(233, 39);
-            this.btnCardNo.TabIndex = 38;
+            this.btnCardNo.TabIndex = 33;
             // 
             // panel3
             // 
@@ -116,7 +113,7 @@
             this.panel3.Location = new System.Drawing.Point(12, 442);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(395, 260);
-            this.panel3.TabIndex = 36;
+            this.panel3.TabIndex = 31;
             // 
             // groupBox2
             // 
@@ -311,13 +308,13 @@
             this.panel1.Location = new System.Drawing.Point(12, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(794, 434);
-            this.panel1.TabIndex = 40;
+            this.panel1.TabIndex = 35;
             // 
             // grAcceptRight
             // 
             this.grAcceptRight.Controls.Add(this.button5);
             this.grAcceptRight.Controls.Add(this.button6);
-            this.grAcceptRight.Controls.Add(this.btnCashTransfer);
+            this.grAcceptRight.Controls.Add(this.button7);
             this.grAcceptRight.Controls.Add(this.button8);
             this.grAcceptRight.Location = new System.Drawing.Point(719, 132);
             this.grAcceptRight.Name = "grAcceptRight";
@@ -345,16 +342,15 @@
             this.button6.TabIndex = 2;
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // btnCashTransfer
+            // button7
             // 
-            this.btnCashTransfer.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
-            this.btnCashTransfer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCashTransfer.Location = new System.Drawing.Point(9, 91);
-            this.btnCashTransfer.Name = "btnCashTransfer";
-            this.btnCashTransfer.Size = new System.Drawing.Size(50, 46);
-            this.btnCashTransfer.TabIndex = 1;
-            this.btnCashTransfer.UseVisualStyleBackColor = true;
-            this.btnCashTransfer.Click += new System.EventHandler(this.btnCashTransfer_Click_1);
+            this.button7.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button7.Location = new System.Drawing.Point(9, 91);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(50, 46);
+            this.button7.TabIndex = 1;
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -370,8 +366,8 @@
             // 
             this.grAcceptLeft.Controls.Add(this.button4);
             this.grAcceptLeft.Controls.Add(this.button3);
-            this.grAcceptLeft.Controls.Add(this.btnSuplusBalance);
-            this.grAcceptLeft.Controls.Add(this.button1);
+            this.grAcceptLeft.Controls.Add(this.button2);
+            this.grAcceptLeft.Controls.Add(this.btnBalance);
             this.grAcceptLeft.Location = new System.Drawing.Point(10, 132);
             this.grAcceptLeft.Name = "grAcceptLeft";
             this.grAcceptLeft.Size = new System.Drawing.Size(66, 292);
@@ -398,137 +394,73 @@
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // btnSuplusBalance
+            // button2
             // 
-            this.btnSuplusBalance.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
-            this.btnSuplusBalance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSuplusBalance.Location = new System.Drawing.Point(8, 91);
-            this.btnSuplusBalance.Name = "btnSuplusBalance";
-            this.btnSuplusBalance.Size = new System.Drawing.Size(50, 46);
-            this.btnSuplusBalance.TabIndex = 1;
-            this.btnSuplusBalance.UseVisualStyleBackColor = true;
-            this.btnSuplusBalance.Click += new System.EventHandler(this.btnSuplusBalance_Click);
+            this.button2.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Location = new System.Drawing.Point(8, 91);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(50, 46);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnBalance
             // 
-            this.button1.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(8, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 46);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBalance.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_next;
+            this.btnBalance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnBalance.Location = new System.Drawing.Point(8, 27);
+            this.btnBalance.Name = "btnBalance";
+            this.btnBalance.Size = new System.Drawing.Size(50, 46);
+            this.btnBalance.TabIndex = 0;
+            this.btnBalance.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel2.Controls.Add(this.simpleButton5);
-            this.panel2.Controls.Add(this.simpleButton4);
-            this.panel2.Controls.Add(this.simpleButton3);
-            this.panel2.Controls.Add(this.btnCashTransferStatements);
-            this.panel2.Controls.Add(this.simpleButton1);
-            this.panel2.Controls.Add(this.btnSurplusPrintStatements);
-            this.panel2.Controls.Add(this.btnBalanceInquiry);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.btnYes);
+            this.panel2.Controls.Add(this.btnNo);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
             this.panel2.TabIndex = 0;
             // 
-            // simpleButton5
+            // label2
             // 
-            this.simpleButton5.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.simpleButton5.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton5.Appearance.Options.UseFont = true;
-            this.simpleButton5.Appearance.Options.UseForeColor = true;
-            this.simpleButton5.Enabled = false;
-            this.simpleButton5.Location = new System.Drawing.Point(482, 287);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton5.TabIndex = 5;
-            this.simpleButton5.Text = "Thanh toán hoán đơn";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(68, 156);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(352, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Bạn có muốn thực hiện giao dịch khác?";
             // 
-            // simpleButton4
+            // label1
             // 
-            this.simpleButton4.AllowDrop = true;
-            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.simpleButton4.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton4.Appearance.Options.UseFont = true;
-            this.simpleButton4.Appearance.Options.UseForeColor = true;
-            this.simpleButton4.Enabled = false;
-            this.simpleButton4.Location = new System.Drawing.Point(0, 354);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "Đăng ký dịch vụ";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(89, 122);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.TabIndex = 5;
             // 
-            // simpleButton3
+            // label9
             // 
-            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Appearance.Options.UseForeColor = true;
-            this.simpleButton3.Enabled = false;
-            this.simpleButton3.Location = new System.Drawing.Point(0, 286);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton3.TabIndex = 5;
-            this.simpleButton3.Text = "Gửi tiền có kỳ hạn";
-            // 
-            // btnCashTransferStatements
-            // 
-            this.btnCashTransferStatements.AllowDrop = true;
-            this.btnCashTransferStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnCashTransferStatements.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnCashTransferStatements.Appearance.Options.UseFont = true;
-            this.btnCashTransferStatements.Appearance.Options.UseForeColor = true;
-            this.btnCashTransferStatements.Enabled = false;
-            this.btnCashTransferStatements.Location = new System.Drawing.Point(482, 220);
-            this.btnCashTransferStatements.Name = "btnCashTransferStatements";
-            this.btnCashTransferStatements.Size = new System.Drawing.Size(149, 46);
-            this.btnCashTransferStatements.TabIndex = 4;
-            this.btnCashTransferStatements.Text = "Chuyển khoản";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Appearance.Options.UseForeColor = true;
-            this.simpleButton1.Enabled = false;
-            this.simpleButton1.Location = new System.Drawing.Point(482, 156);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(149, 46);
-            this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "Đổi PIN";
-            // 
-            // btnSurplusPrintStatements
-            // 
-            this.btnSurplusPrintStatements.AllowDrop = true;
-            this.btnSurplusPrintStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnSurplusPrintStatements.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnSurplusPrintStatements.Appearance.Options.UseFont = true;
-            this.btnSurplusPrintStatements.Appearance.Options.UseForeColor = true;
-            this.btnSurplusPrintStatements.Enabled = false;
-            this.btnSurplusPrintStatements.Location = new System.Drawing.Point(0, 221);
-            this.btnSurplusPrintStatements.Name = "btnSurplusPrintStatements";
-            this.btnSurplusPrintStatements.Size = new System.Drawing.Size(149, 46);
-            this.btnSurplusPrintStatements.TabIndex = 4;
-            this.btnSurplusPrintStatements.Text = "Xem số dư/In sao kê";
-            // 
-            // btnBalanceInquiry
-            // 
-            this.btnBalanceInquiry.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnBalanceInquiry.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnBalanceInquiry.Appearance.Options.UseFont = true;
-            this.btnBalanceInquiry.Appearance.Options.UseForeColor = true;
-            this.btnBalanceInquiry.Enabled = false;
-            this.btnBalanceInquiry.Location = new System.Drawing.Point(0, 157);
-            this.btnBalanceInquiry.Name = "btnBalanceInquiry";
-            this.btnBalanceInquiry.Size = new System.Drawing.Size(149, 46);
-            this.btnBalanceInquiry.TabIndex = 5;
-            this.btnBalanceInquiry.Text = "Rút tiền";
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(116, 66);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(407, 50);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "                Giao dịch không thành công\r\nTài khoản của bạn không đủ tiền để th" +
+    "ực hiện";
             // 
             // panel4
             // 
@@ -539,25 +471,46 @@
             this.panel4.Size = new System.Drawing.Size(631, 63);
             this.panel4.TabIndex = 3;
             // 
-            // frmMainForm
+            // btnYes
+            // 
+            this.btnYes.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnYes.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnYes.Appearance.Options.UseFont = true;
+            this.btnYes.Appearance.Options.UseForeColor = true;
+            this.btnYes.Enabled = false;
+            this.btnYes.Location = new System.Drawing.Point(445, 287);
+            this.btnYes.Name = "btnYes";
+            this.btnYes.Size = new System.Drawing.Size(185, 46);
+            this.btnYes.TabIndex = 0;
+            this.btnYes.Text = "Có";
+            // 
+            // btnNo
+            // 
+            this.btnNo.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnNo.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnNo.Appearance.Options.UseFont = true;
+            this.btnNo.Appearance.Options.UseForeColor = true;
+            this.btnNo.Enabled = false;
+            this.btnNo.Location = new System.Drawing.Point(445, 355);
+            this.btnNo.Name = "btnNo";
+            this.btnNo.Size = new System.Drawing.Size(185, 46);
+            this.btnNo.TabIndex = 0;
+            this.btnNo.Text = "Không";
+            // 
+            // frmTransactionFailed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Red;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(819, 705);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.btnCardNo);
             this.Controls.Add(this.panel3);
-            this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.Color.Black;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmMainForm";
+            this.Name = "frmTransactionFailed";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Techcombank";
             this.panel3.ResumeLayout(false);
@@ -567,6 +520,7 @@
             this.grAcceptRight.ResumeLayout(false);
             this.grAcceptLeft.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -599,21 +553,19 @@
         private System.Windows.Forms.GroupBox grAcceptRight;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button btnCashTransfer;
+        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.GroupBox grAcceptLeft;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnSuplusBalance;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBalance;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton btnCashTransferStatements;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton btnSurplusPrintStatements;
-        private DevExpress.XtraEditors.SimpleButton btnBalanceInquiry;
+        private DevExpress.XtraEditors.SimpleButton btnYes;
+        private DevExpress.XtraEditors.SimpleButton btnNo;
+        private System.Windows.Forms.Label label2;
     }
 }
