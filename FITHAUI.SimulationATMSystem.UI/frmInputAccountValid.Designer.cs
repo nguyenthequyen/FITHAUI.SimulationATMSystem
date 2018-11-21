@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAccept = new DevExpress.XtraEditors.SimpleButton();
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -80,32 +78,6 @@
             this.grAcceptLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnCancel.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Appearance.Options.UseFont = true;
-            this.btnCancel.Appearance.Options.UseForeColor = true;
-            this.btnCancel.Enabled = false;
-            this.btnCancel.Location = new System.Drawing.Point(445, 355);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(185, 46);
-            this.btnCancel.TabIndex = 0;
-            this.btnCancel.Text = "Bỏ qua";
-            // 
-            // btnAccept
-            // 
-            this.btnAccept.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnAccept.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnAccept.Appearance.Options.UseFont = true;
-            this.btnAccept.Appearance.Options.UseForeColor = true;
-            this.btnAccept.Enabled = false;
-            this.btnAccept.Location = new System.Drawing.Point(445, 287);
-            this.btnAccept.Name = "btnAccept";
-            this.btnAccept.Size = new System.Drawing.Size(185, 46);
-            this.btnAccept.TabIndex = 0;
-            this.btnAccept.Text = "Đồng ý";
             // 
             // button25
             // 
@@ -457,8 +429,6 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnAccept);
-            this.panel2.Controls.Add(this.btnCancel);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -574,8 +544,6 @@
         }
 
         #endregion
-        private DevExpress.XtraEditors.SimpleButton btnCancel;
-        private DevExpress.XtraEditors.SimpleButton btnAccept;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox btnCardNo;

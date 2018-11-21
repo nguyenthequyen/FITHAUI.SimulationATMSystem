@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnFalse = new DevExpress.XtraEditors.SimpleButton();
-            this.btnTrue = new DevExpress.XtraEditors.SimpleButton();
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -66,7 +64,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
@@ -77,32 +74,6 @@
             this.grAcceptLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnFalse
-            // 
-            this.btnFalse.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnFalse.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnFalse.Appearance.Options.UseFont = true;
-            this.btnFalse.Appearance.Options.UseForeColor = true;
-            this.btnFalse.Enabled = false;
-            this.btnFalse.Location = new System.Drawing.Point(479, 287);
-            this.btnFalse.Name = "btnFalse";
-            this.btnFalse.Size = new System.Drawing.Size(149, 46);
-            this.btnFalse.TabIndex = 0;
-            this.btnFalse.Text = "Sai";
-            // 
-            // btnTrue
-            // 
-            this.btnTrue.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnTrue.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnTrue.Appearance.Options.UseFont = true;
-            this.btnTrue.Appearance.Options.UseForeColor = true;
-            this.btnTrue.Enabled = false;
-            this.btnTrue.Location = new System.Drawing.Point(479, 220);
-            this.btnTrue.Name = "btnTrue";
-            this.btnTrue.Size = new System.Drawing.Size(149, 46);
-            this.btnTrue.TabIndex = 0;
-            this.btnTrue.Text = "Đúng";
             // 
             // button25
             // 
@@ -448,11 +419,8 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.btnCancel);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnTrue);
-            this.panel2.Controls.Add(this.btnFalse);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -476,19 +444,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(309, 20);
             this.textBox1.TabIndex = 6;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnCancel.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Appearance.Options.UseFont = true;
-            this.btnCancel.Appearance.Options.UseForeColor = true;
-            this.btnCancel.Enabled = false;
-            this.btnCancel.Location = new System.Drawing.Point(479, 355);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(149, 46);
-            this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Bỏ qua";
             // 
             // label9
             // 
@@ -540,8 +495,6 @@
         }
 
         #endregion
-        private DevExpress.XtraEditors.SimpleButton btnFalse;
-        private DevExpress.XtraEditors.SimpleButton btnTrue;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox btnCardNo;
@@ -578,7 +531,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label9;
-        private DevExpress.XtraEditors.SimpleButton btnCancel;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
     }

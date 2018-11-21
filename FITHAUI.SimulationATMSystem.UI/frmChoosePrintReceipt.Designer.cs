@@ -65,8 +65,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnPrintReceipt = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDontPrintReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -421,8 +419,6 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnPrintReceipt);
-            this.panel2.Controls.Add(this.btnDontPrintReceipt);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -447,32 +443,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(631, 63);
             this.panel4.TabIndex = 3;
-            // 
-            // btnPrintReceipt
-            // 
-            this.btnPrintReceipt.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrintReceipt.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnPrintReceipt.Appearance.Options.UseFont = true;
-            this.btnPrintReceipt.Appearance.Options.UseForeColor = true;
-            this.btnPrintReceipt.Enabled = false;
-            this.btnPrintReceipt.Location = new System.Drawing.Point(445, 287);
-            this.btnPrintReceipt.Name = "btnPrintReceipt";
-            this.btnPrintReceipt.Size = new System.Drawing.Size(185, 46);
-            this.btnPrintReceipt.TabIndex = 0;
-            this.btnPrintReceipt.Text = "In biên lai";
-            // 
-            // btnDontPrintReceipt
-            // 
-            this.btnDontPrintReceipt.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnDontPrintReceipt.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnDontPrintReceipt.Appearance.Options.UseFont = true;
-            this.btnDontPrintReceipt.Appearance.Options.UseForeColor = true;
-            this.btnDontPrintReceipt.Enabled = false;
-            this.btnDontPrintReceipt.Location = new System.Drawing.Point(445, 355);
-            this.btnDontPrintReceipt.Name = "btnDontPrintReceipt";
-            this.btnDontPrintReceipt.Size = new System.Drawing.Size(185, 46);
-            this.btnDontPrintReceipt.TabIndex = 0;
-            this.btnDontPrintReceipt.Text = "Không in biên lai";
             // 
             // frmChoosePrintReceipt
             // 
@@ -540,7 +510,5 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.SimpleButton btnPrintReceipt;
-        private DevExpress.XtraEditors.SimpleButton btnDontPrintReceipt;
     }
 }

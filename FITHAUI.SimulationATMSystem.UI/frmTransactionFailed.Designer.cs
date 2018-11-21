@@ -66,8 +66,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnYes = new DevExpress.XtraEditors.SimpleButton();
-            this.btnNo = new DevExpress.XtraEditors.SimpleButton();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -422,8 +420,6 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnYes);
-            this.panel2.Controls.Add(this.btnNo);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -470,32 +466,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(631, 63);
             this.panel4.TabIndex = 3;
-            // 
-            // btnYes
-            // 
-            this.btnYes.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnYes.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnYes.Appearance.Options.UseFont = true;
-            this.btnYes.Appearance.Options.UseForeColor = true;
-            this.btnYes.Enabled = false;
-            this.btnYes.Location = new System.Drawing.Point(445, 287);
-            this.btnYes.Name = "btnYes";
-            this.btnYes.Size = new System.Drawing.Size(185, 46);
-            this.btnYes.TabIndex = 0;
-            this.btnYes.Text = "Có";
-            // 
-            // btnNo
-            // 
-            this.btnNo.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnNo.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnNo.Appearance.Options.UseFont = true;
-            this.btnNo.Appearance.Options.UseForeColor = true;
-            this.btnNo.Enabled = false;
-            this.btnNo.Location = new System.Drawing.Point(445, 355);
-            this.btnNo.Name = "btnNo";
-            this.btnNo.Size = new System.Drawing.Size(185, 46);
-            this.btnNo.TabIndex = 0;
-            this.btnNo.Text = "Không";
             // 
             // frmTransactionFailed
             // 
@@ -564,8 +534,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.SimpleButton btnYes;
-        private DevExpress.XtraEditors.SimpleButton btnNo;
         private System.Windows.Forms.Label label2;
     }
 }

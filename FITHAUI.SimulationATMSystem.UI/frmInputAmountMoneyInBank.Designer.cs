@@ -63,13 +63,10 @@
             this.btnBalance = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnTrue = new DevExpress.XtraEditors.SimpleButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnFalse = new DevExpress.XtraEditors.SimpleButton();
-            this.btnUndo = new DevExpress.XtraEditors.SimpleButton();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -422,13 +419,10 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.btnTrue);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnFalse);
-            this.panel2.Controls.Add(this.btnUndo);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -441,19 +435,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(261, 20);
             this.textBox1.TabIndex = 9;
-            // 
-            // btnTrue
-            // 
-            this.btnTrue.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnTrue.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnTrue.Appearance.Options.UseFont = true;
-            this.btnTrue.Appearance.Options.UseForeColor = true;
-            this.btnTrue.Enabled = false;
-            this.btnTrue.Location = new System.Drawing.Point(446, 220);
-            this.btnTrue.Name = "btnTrue";
-            this.btnTrue.Size = new System.Drawing.Size(185, 46);
-            this.btnTrue.TabIndex = 8;
-            this.btnTrue.Text = "Đúng";
             // 
             // label2
             // 
@@ -494,33 +475,6 @@
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(631, 63);
-            this.panel4.TabIndex = 3;
-            // 
-            // btnFalse
-            // 
-            this.btnFalse.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnFalse.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnFalse.Appearance.Options.UseFont = true;
-            this.btnFalse.Appearance.Options.UseForeColor = true;
-            this.btnFalse.Enabled = false;
-            this.btnFalse.Location = new System.Drawing.Point(445, 287);
-            this.btnFalse.Name = "btnFalse";
-            this.btnFalse.Size = new System.Drawing.Size(185, 46);
-            this.btnFalse.TabIndex = 0;
-            this.btnFalse.Text = "Sai";
-            // 
-            // btnUndo
-            // 
-            this.btnUndo.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnUndo.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnUndo.Appearance.Options.UseFont = true;
-            this.btnUndo.Appearance.Options.UseForeColor = true;
-            this.btnUndo.Enabled = false;
-            this.btnUndo.Location = new System.Drawing.Point(445, 355);
-            this.btnUndo.Name = "btnUndo";
-            this.btnUndo.Size = new System.Drawing.Size(185, 46);
-            this.btnUndo.TabIndex = 0;
-            this.btnUndo.Text = "Quay lại";
             // 
             // frmInputAmountMoneyInBank
             // 
@@ -589,10 +543,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.SimpleButton btnFalse;
-        private DevExpress.XtraEditors.SimpleButton btnUndo;
         private System.Windows.Forms.Label label2;
-        private DevExpress.XtraEditors.SimpleButton btnTrue;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

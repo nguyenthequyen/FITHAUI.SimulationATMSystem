@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTransferOtherBank = new DevExpress.XtraEditors.SimpleButton();
-            this.btnTransferIn = new DevExpress.XtraEditors.SimpleButton();
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -74,32 +72,6 @@
             this.grAcceptLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnTransferOtherBank
-            // 
-            this.btnTransferOtherBank.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnTransferOtherBank.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnTransferOtherBank.Appearance.Options.UseFont = true;
-            this.btnTransferOtherBank.Appearance.Options.UseForeColor = true;
-            this.btnTransferOtherBank.Enabled = false;
-            this.btnTransferOtherBank.Location = new System.Drawing.Point(0, 220);
-            this.btnTransferOtherBank.Name = "btnTransferOtherBank";
-            this.btnTransferOtherBank.Size = new System.Drawing.Size(185, 46);
-            this.btnTransferOtherBank.TabIndex = 0;
-            this.btnTransferOtherBank.Text = "Chuyển tiền liên ngân hàng";
-            // 
-            // btnTransferIn
-            // 
-            this.btnTransferIn.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnTransferIn.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnTransferIn.Appearance.Options.UseFont = true;
-            this.btnTransferIn.Appearance.Options.UseForeColor = true;
-            this.btnTransferIn.Enabled = false;
-            this.btnTransferIn.Location = new System.Drawing.Point(0, 156);
-            this.btnTransferIn.Name = "btnTransferIn";
-            this.btnTransferIn.Size = new System.Drawing.Size(149, 46);
-            this.btnTransferIn.TabIndex = 0;
-            this.btnTransferIn.Text = "Chuyển tiền nội bộ";
             // 
             // button25
             // 
@@ -446,8 +418,6 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnTransferIn);
-            this.panel2.Controls.Add(this.btnTransferOtherBank);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -503,8 +473,6 @@
         }
 
         #endregion
-        private DevExpress.XtraEditors.SimpleButton btnTransferOtherBank;
-        private DevExpress.XtraEditors.SimpleButton btnTransferIn;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox btnCardNo;
