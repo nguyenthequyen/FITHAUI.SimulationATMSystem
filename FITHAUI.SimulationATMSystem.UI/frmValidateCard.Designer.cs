@@ -50,8 +50,6 @@
             this.btnFour = new System.Windows.Forms.Button();
             this.btnTwo = new System.Windows.Forms.Button();
             this.btnOne = new System.Windows.Forms.Button();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.grAcceptRight = new System.Windows.Forms.GroupBox();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -324,35 +322,6 @@
             this.btnOne.TabIndex = 7;
             this.btnOne.UseVisualStyleBackColor = true;
             // 
-            // simpleButton1
-            // 
-            this.simpleButton1.AllowDrop = true;
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Appearance.Options.UseForeColor = true;
-            this.simpleButton1.Enabled = false;
-            this.simpleButton1.Location = new System.Drawing.Point(723, 546);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(224, 71);
-            this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "Hủy bỏ";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Appearance.Options.UseForeColor = true;
-            this.simpleButton2.Enabled = false;
-            this.simpleButton2.Location = new System.Drawing.Point(723, 442);
-            this.simpleButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(224, 71);
-            this.simpleButton2.TabIndex = 0;
-            this.simpleButton2.Text = "Đồng ý";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
@@ -490,8 +459,6 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.simpleButton1);
-            this.panel2.Controls.Add(this.simpleButton2);
             this.panel2.Location = new System.Drawing.Point(123, 5);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
@@ -606,8 +573,6 @@
         private System.Windows.Forms.Button btnFour;
         private System.Windows.Forms.Button btnTwo;
         private System.Windows.Forms.Button btnOne;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox grAcceptRight;
         private System.Windows.Forms.Button btnCancel;

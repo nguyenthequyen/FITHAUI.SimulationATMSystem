@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBalanceInquiry2));
-            this.btnPrintStatements = new DevExpress.XtraEditors.SimpleButton();
-            this.btnBalanceInquiry = new DevExpress.XtraEditors.SimpleButton();
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnCardNo = new System.Windows.Forms.TextBox();
@@ -75,33 +73,6 @@
             this.grAcceptLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnPrintStatements
-            // 
-            this.btnPrintStatements.AllowDrop = true;
-            this.btnPrintStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrintStatements.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnPrintStatements.Appearance.Options.UseFont = true;
-            this.btnPrintStatements.Appearance.Options.UseForeColor = true;
-            this.btnPrintStatements.Enabled = false;
-            this.btnPrintStatements.Location = new System.Drawing.Point(482, 354);
-            this.btnPrintStatements.Name = "btnPrintStatements";
-            this.btnPrintStatements.Size = new System.Drawing.Size(149, 46);
-            this.btnPrintStatements.TabIndex = 0;
-            this.btnPrintStatements.Text = "Hiển thị màn hình";
-            // 
-            // btnBalanceInquiry
-            // 
-            this.btnBalanceInquiry.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnBalanceInquiry.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnBalanceInquiry.Appearance.Options.UseFont = true;
-            this.btnBalanceInquiry.Appearance.Options.UseForeColor = true;
-            this.btnBalanceInquiry.Enabled = false;
-            this.btnBalanceInquiry.Location = new System.Drawing.Point(482, 286);
-            this.btnBalanceInquiry.Name = "btnBalanceInquiry";
-            this.btnBalanceInquiry.Size = new System.Drawing.Size(149, 46);
-            this.btnBalanceInquiry.TabIndex = 0;
-            this.btnBalanceInquiry.Text = "In hóa đơn";
             // 
             // button25
             // 
@@ -458,8 +429,6 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.btnPrintStatements);
-            this.panel2.Controls.Add(this.btnBalanceInquiry);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -505,8 +474,6 @@
         }
 
         #endregion
-        private DevExpress.XtraEditors.SimpleButton btnPrintStatements;
-        private DevExpress.XtraEditors.SimpleButton btnBalanceInquiry;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox btnCardNo;
