@@ -69,6 +69,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnPrintStatements = new DevExpress.XtraEditors.SimpleButton();
+            this.btnBalanceInquiry = new DevExpress.XtraEditors.SimpleButton();
             this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -425,6 +427,8 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.btnPrintStatements);
+            this.panel2.Controls.Add(this.btnBalanceInquiry);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -495,6 +499,33 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome - Chào mừng";
             // 
+            // btnPrintStatements
+            // 
+            this.btnPrintStatements.AllowDrop = true;
+            this.btnPrintStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrintStatements.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnPrintStatements.Appearance.Options.UseFont = true;
+            this.btnPrintStatements.Appearance.Options.UseForeColor = true;
+            this.btnPrintStatements.Enabled = false;
+            this.btnPrintStatements.Location = new System.Drawing.Point(482, 354);
+            this.btnPrintStatements.Name = "btnPrintStatements";
+            this.btnPrintStatements.Size = new System.Drawing.Size(149, 46);
+            this.btnPrintStatements.TabIndex = 0;
+            this.btnPrintStatements.Text = "Tiếng việt";
+            // 
+            // btnBalanceInquiry
+            // 
+            this.btnBalanceInquiry.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnBalanceInquiry.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnBalanceInquiry.Appearance.Options.UseFont = true;
+            this.btnBalanceInquiry.Appearance.Options.UseForeColor = true;
+            this.btnBalanceInquiry.Enabled = false;
+            this.btnBalanceInquiry.Location = new System.Drawing.Point(482, 286);
+            this.btnBalanceInquiry.Name = "btnBalanceInquiry";
+            this.btnBalanceInquiry.Size = new System.Drawing.Size(149, 46);
+            this.btnBalanceInquiry.TabIndex = 0;
+            this.btnBalanceInquiry.Text = "English";
+            // 
             // frmLanguage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -561,6 +592,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
+        private DevExpress.XtraEditors.SimpleButton btnPrintStatements;
+        private DevExpress.XtraEditors.SimpleButton btnBalanceInquiry;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
