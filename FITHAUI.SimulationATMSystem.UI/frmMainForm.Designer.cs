@@ -55,7 +55,7 @@
             this.grAcceptRight = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnChooseCashTransfer = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.grAcceptLeft = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -317,7 +317,7 @@
             // 
             this.grAcceptRight.Controls.Add(this.button5);
             this.grAcceptRight.Controls.Add(this.button6);
-            this.grAcceptRight.Controls.Add(this.button7);
+            this.grAcceptRight.Controls.Add(this.btnChooseCashTransfer);
             this.grAcceptRight.Controls.Add(this.button8);
             this.grAcceptRight.Location = new System.Drawing.Point(719, 132);
             this.grAcceptRight.Name = "grAcceptRight";
@@ -345,15 +345,16 @@
             this.button6.TabIndex = 2;
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnChooseCashTransfer
             // 
-            this.button7.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.Location = new System.Drawing.Point(9, 91);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(50, 46);
-            this.button7.TabIndex = 1;
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnChooseCashTransfer.BackgroundImage = global::FITHAUI.SimulationATMSystem.UI.Properties.Resources.icon_prev;
+            this.btnChooseCashTransfer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnChooseCashTransfer.Location = new System.Drawing.Point(9, 91);
+            this.btnChooseCashTransfer.Name = "btnChooseCashTransfer";
+            this.btnChooseCashTransfer.Size = new System.Drawing.Size(50, 46);
+            this.btnChooseCashTransfer.TabIndex = 1;
+            this.btnChooseCashTransfer.UseVisualStyleBackColor = true;
+            this.btnChooseCashTransfer.Click += new System.EventHandler(this.btnChooseCashTransfer_Click);
             // 
             // button8
             // 
@@ -598,7 +599,7 @@
         private System.Windows.Forms.GroupBox grAcceptRight;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnChooseCashTransfer;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.GroupBox grAcceptLeft;
         private System.Windows.Forms.Button button4;

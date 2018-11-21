@@ -25,5 +25,12 @@ namespace FITHAUI.SimulationATMSystem.UI
             surplusPrintStatements.Show();
             this.Hide();
         }
+
+        private void btnChooseCashTransfer_Click(object sender, EventArgs e)
+        {
+            var frmChooseKindTransfer = new frmChooseKindTransfer();
+            frmChooseKindTransfer.Show();
+            this.Hide();
+        }
     }
 }
