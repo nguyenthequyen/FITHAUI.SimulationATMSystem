@@ -73,7 +73,6 @@
             this.grAcceptRight.SuspendLayout();
             this.grAcceptLeft.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.SuspendLayout();
             // 
             // button25
             // 

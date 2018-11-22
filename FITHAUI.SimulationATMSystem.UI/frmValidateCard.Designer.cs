@@ -320,7 +320,6 @@
             this.btnOne.Name = "btnOne";
             this.btnOne.Size = new System.Drawing.Size(78, 74);
             this.btnOne.TabIndex = 7;
-            this.btnOne.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 

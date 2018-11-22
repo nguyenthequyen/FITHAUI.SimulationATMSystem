@@ -25,5 +25,12 @@ namespace FITHAUI.SimulationATMSystem.UI
             surplusPrintStatements.Show();
             this.Hide();
         }
+
+        private void btnChangePIN_Click(object sender, EventArgs e)
+        {
+            var changePIN = new frmChangePIN();
+            changePIN.Show();
+            this.Hide();
+        }
     }
 }
