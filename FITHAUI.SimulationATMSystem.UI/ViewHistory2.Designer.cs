@@ -82,8 +82,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnBalanceInquiry = new DevExpress.XtraEditors.SimpleButton();
-            this.btnPrintStatements = new DevExpress.XtraEditors.SimpleButton();
             this.btnCardNo = new System.Windows.Forms.TextBox();
             this.button25 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -409,8 +407,6 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.btnBalanceInquiry);
-            this.panel2.Controls.Add(this.btnPrintStatements);
             this.panel2.Location = new System.Drawing.Point(82, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 421);
@@ -654,33 +650,6 @@
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(631, 63);
-            this.panel4.TabIndex = 3;
-            // 
-            // btnBalanceInquiry
-            // 
-            this.btnBalanceInquiry.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnBalanceInquiry.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnBalanceInquiry.Appearance.Options.UseFont = true;
-            this.btnBalanceInquiry.Appearance.Options.UseForeColor = true;
-            this.btnBalanceInquiry.Enabled = false;
-            this.btnBalanceInquiry.Location = new System.Drawing.Point(482, 287);
-            this.btnBalanceInquiry.Name = "btnBalanceInquiry";
-            this.btnBalanceInquiry.Size = new System.Drawing.Size(149, 46);
-            this.btnBalanceInquiry.TabIndex = 0;
-            this.btnBalanceInquiry.Text = "Có";
-            // 
-            // btnPrintStatements
-            // 
-            this.btnPrintStatements.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrintStatements.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.btnPrintStatements.Appearance.Options.UseFont = true;
-            this.btnPrintStatements.Appearance.Options.UseForeColor = true;
-            this.btnPrintStatements.Enabled = false;
-            this.btnPrintStatements.Location = new System.Drawing.Point(482, 351);
-            this.btnPrintStatements.Name = "btnPrintStatements";
-            this.btnPrintStatements.Size = new System.Drawing.Size(149, 46);
-            this.btnPrintStatements.TabIndex = 0;
-            this.btnPrintStatements.Text = "Không";
             // 
             // btnCardNo
             // 
@@ -790,8 +759,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel4;
-        private DevExpress.XtraEditors.SimpleButton btnBalanceInquiry;
-        private DevExpress.XtraEditors.SimpleButton btnPrintStatements;
         private System.Windows.Forms.TextBox btnCardNo;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Panel panel5;
