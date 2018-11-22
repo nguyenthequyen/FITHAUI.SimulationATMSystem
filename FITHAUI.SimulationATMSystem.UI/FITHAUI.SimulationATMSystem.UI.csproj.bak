@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -48,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAwait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAwait.Designer.cs">
+      <DependentUpon>frmAwait.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBalanceInquiry1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,13 +78,49 @@
     <Compile Include="frmBalanceInquiry3.Designer.cs">
       <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLanguage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanguage.Designer.cs">
+      <DependentUpon>frmLanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainForm.Designer.cs">
+      <DependentUpon>frmMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewHistory2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewHistory2.Designer.cs">
+      <DependentUpon>ViewHistory2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewsHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewsHistory.Designer.cs">
+      <DependentUpon>ViewsHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAwait.resx">
+      <DependentUpon>frmAwait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceInquiry1.resx">
+      <DependentUpon>frmBalanceInquiry1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceInquiry2.resx">
+      <DependentUpon>frmBalanceInquiry2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceInquiry3.resx">
+      <DependentUpon>frmBalanceInquiry3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLanguage.resx">
       <DependentUpon>frmLanguage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainForm.resx">
       <DependentUpon>frmMainForm.cs</DependentUpon>
-    </EmbeddedResource>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -650,7 +650,6 @@
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(631, 63);
-            this.panel4.TabIndex = 3;
             // 
             // btnCardNo
             // 

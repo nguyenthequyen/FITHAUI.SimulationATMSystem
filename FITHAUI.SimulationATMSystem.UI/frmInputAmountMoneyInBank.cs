@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace FITHAUI.SimulationATMSystem.UI
 {
-    public partial class frmAwait : Form
+    public partial class frmInputAmountMoneyInBank : Form
     {
-        public frmAwait()
+        public frmInputAmountMoneyInBank()
         {
             InitializeComponent();
+        }
+
+        private void btnChooseTrue_Click(object sender, EventArgs e)
+        {
+            var frmInputAccountValid = new frmInputAccountValid();
+            frmInputAccountValid.Show();
+            this.Hide();
         }
     }
 }
